@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+body{
+    background: linear-gradient(135deg, #a85c5e, #ef6b46, #fad0c4, #54ef8d, #a6c1ee);
+    background-size: 400% 400%;
+    animation: animarFondo 15s ease infinite;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+@keyframes animarFondo {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+.logo-container h1{
+    margin-top: 15px 0px 0px 15px;
+}
+.logo-container{
+   text-align: center;
+   margin: 10px;
+   padding: 10px;
+   padding: auto ;
+   
+}
+.logo-container img{
+    width: 250px;
+   float: left;
+   margin-left: 10px;
+   border-radius: 8px;
+}
+ .data{
+    display: flex;
+   flex-direction: column;
+    padding-left: 40px;
+    font-size: 19px;
+    gap: 15px;
+}
+.form h1{
+    margin-top: 10px;
+    text-align: center;
+}
+form{
+    display: flex;
+   flex-direction: column;
+   padding-left: 10px;
+  margin: auto;
+   box-sizing: border-box;
+   width: 800px;
+   margin-bottom: 20px;
+}
+input,
+textarea {
+  background-color: rgba(255, 255, 255, 0.2); /* semitransparente */
+  color: rgb(0, 0, 0); /* texto claro para que se lea */
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 22px;
+}
+
+button{
+    margin-top: 8px;
+    color: black;
+    background-color: gray;
+}
+button:hover{
+    color: rgb(6, 6, 4);
+    background-color: rgba(133, 122, 122, 0.464);
+}
